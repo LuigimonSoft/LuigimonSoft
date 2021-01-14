@@ -24,9 +24,10 @@ Programo en diferentes lenguajes pero mis favoritos son C#, C++, Typescript y Ru
     <img src="https://github-readme-stats.vercel.app/api?username=LuigimonSoft&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff00&hide_title=true&include_all_commits=true&count_private=true&hide_border=true" />
   </a>
 </p>
-## :computer: Languages/Frameworks
+# :computer: Languages/Frameworks
 
 <p align="left">
+  <img alt="C#" src="https://img.shields.io/badge/C%23-00599C?style=for-the-badge&logo=c&logo=c%23Color=green" />
   <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
@@ -41,7 +42,7 @@ Programo en diferentes lenguajes pero mis favoritos son C#, C++, Typescript y Ru
   <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 </p>
-## :bar_chart: Mis Estadisticas
+# :bar_chart: Mis Estadisticas
 
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <p align="left">
