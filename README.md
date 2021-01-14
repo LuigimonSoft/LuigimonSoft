@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<center>Ingeniero en Electronica y Programador</center>
+
+Programo en diferentes lenguajes pero mis favoritos son C#, C++, Typescript y Rust
+
+<p align="center">
+  <a href="https://github.com/LuigimonSoft" alt="LuigimonSoft's Github Stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=LuigimonSoft&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff00&hide_title=true&include_all_commits=true&count_private=true&hide_border=true" />
+  </a>
+</p>
