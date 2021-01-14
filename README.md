@@ -35,7 +35,7 @@ Programo en diferentes lenguajes pero mis favoritos son C#, C++, Typescript y Ru
   <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
   <img alt="Jquery" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
-  <img alt="MSSQL" src="https://img.shields.io/badge/MSSQL-00000F?style=for-the-badge&logo=mssql&logoColor=white" />
+  <img alt="MSSQL" src="https://img.shields.io/badge/MSSQL-00000F?style=for-the-badge&logo=sql&logoColor=white" />
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
   <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
