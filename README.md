@@ -30,10 +30,10 @@ Programo en diferentes lenguajes pero mis favoritos son C#, C++, Typescript y Ru
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <p align="left">
   <a href="">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuisgimonSoft&layout=compact&text_color=718096&bg_color=ffffff00&hide_title=false&include_all_commits=true&count_private=true&hide_border=true&hide=roff&&langs_count=10" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuigimonSoft&layout=compact&text_color=718096&bg_color=ffffff00&hide_title=false&include_all_commits=true&count_private=true&hide_border=true&hide=roff&&langs_count=10" />
   </a>
   <br>
   <a href="https://ppizarror.com" alt="Wakatime">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Luigimonsoft&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff00&hide_title=false&include_all_commits=true&count_private=true&hide_border=true&layout=compact" />
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=LuigimonSoft&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff00&hide_title=false&include_all_commits=true&count_private=true&hide_border=true&layout=compact" />
   </a>
 </p>
