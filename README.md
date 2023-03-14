@@ -26,7 +26,7 @@ Here are some of the technologies and tools that I am experienced with:
 ![](https://img.shields.io/badge/Editor-Visual%20Studio%20Code-informational?style=flat-square&logo=visual-studio-code&logoColor=white&color=2bbc8a)
 
 ## :bar_chart: Statistics
-[![Luigimonsoft's GitHub stats](https://github-readme-stats.vercel.app/api?username=luigimonsoft&show_icons=true)](https://github.com/luigimonsoft)
+[![Luigimonsoft's GitHub stats](https://github-readme-stats.vercel.app/api?username=luigimonsoft&show_icons=true&theme=transparent)](https://github.com/luigimonsoft)
 
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <p align="left">
