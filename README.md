@@ -35,3 +35,6 @@ Here are some of the technologies and tools that I am experienced with:
   </a>
   <br>
 </p>
+
+## CodeWars
+<img src="https://www.codewars.com/users/LuigimonSoft/badges/large"/>
