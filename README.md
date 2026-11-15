@@ -52,8 +52,8 @@ I am a passionate programmer who enjoys learning new things. Although I am not t
 
 ## 📊 GitHub Stats
 
-[![GitHub stats](https://raw.githubusercontent.com/LuigimonSoft/LuigimonSoft/master/assets/stats/overview.svg?v=0fb8c72e9cf9)](https://github.com/LuigimonSoft)
-[![Most used languages](https://raw.githubusercontent.com/LuigimonSoft/LuigimonSoft/master/assets/stats/languages.svg?v=c64af942e68e)](https://github.com/LuigimonSoft?tab=repositories)
+[![GitHub stats](https://raw.githubusercontent.com/LuigimonSoft/LuigimonSoft/master/assets/stats/overview.svg?v=1b90892dc743)](https://github.com/LuigimonSoft)
+[![Most used languages](https://raw.githubusercontent.com/LuigimonSoft/LuigimonSoft/master/assets/stats/languages.svg?v=0bb1a55c6240)](https://github.com/LuigimonSoft?tab=repositories)
 
 <sub>Language percentages are based on code in public, non-fork repositories.</sub>
 

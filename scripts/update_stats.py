@@ -22,11 +22,34 @@ def get(path):
 
 
 def card(title, lines):
-    height = 70 + 30 * len(lines)
-    rows = ''.join(f'<text x="24" y="{72 + i * 30}" class="row">{html.escape(line)}</text>' for i, line in enumerate(lines))
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="400" height="{height}" viewBox="0 0 400 {height}" role="img" aria-label="{html.escape(title)}">'
-            '<style>.title{font:600 20px sans-serif;fill:#58a6ff}.row{font:15px sans-serif;fill:#8b949e}</style>'
-            f'<text x="24" y="35" class="title">{html.escape(title)}</text>{rows}</svg>\n')
+    width, height = 400, 350
+    elements = [
+        '<rect x="1" y="1" width="398" height="348" rx="12" fill="#161b22" stroke="#30363d"/>',
+        f'<text x="24" y="38" class="title">{html.escape(title)}</text>',
+    ]
+    if title == 'Most Used Languages':
+        colors = ['#f34b7d', '#f1e05a', '#dea584', '#3178c6', '#3572a5', '#f05138', '#a074c4', '#563d7c']
+        for i, line in enumerate(lines):
+            label, _, value = line.rpartition(': ')
+            try:
+                percentage = float(value.rstrip('%'))
+            except ValueError:
+                elements.append(f'<text x="24" y="75" class="row">{html.escape(line)}</text>')
+                break
+            y = 72 + i * 33
+            elements.append(f'<text x="24" y="{y}" class="row">{html.escape(label)}</text>')
+            elements.append(f'<text x="376" y="{y}" text-anchor="end" class="row">{html.escape(value)}</text>')
+            elements.append(f'<rect x="24" y="{y + 8}" width="352" height="6" rx="3" fill="#30363d"/>')
+            elements.append(f'<rect x="24" y="{y + 8}" width="{352 * percentage / 100:.1f}" height="6" rx="3" fill="{colors[i % len(colors)]}"/>')
+    else:
+        for i, line in enumerate(lines):
+            label, _, value = line.rpartition(': ')
+            y = 88 + i * 75
+            elements.append(f'<text x="24" y="{y}" class="row">{html.escape(label)}</text>')
+            elements.append(f'<text x="24" y="{y + 31}" class="value">{html.escape(value)}</text>')
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{html.escape(title)}">'
+            '<style>.title{font:600 20px sans-serif;fill:#58a6ff}.row{font:14px sans-serif;fill:#c9d1d9}.value{font:600 23px sans-serif;fill:#f0f6fc}</style>'
+            + ''.join(elements) + '</svg>\n')
 
 
 def main():
