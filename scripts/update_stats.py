@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Generate profile cards from public GitHub API data."""
+import hashlib
 import html
 import json
 import os
+import re
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -50,6 +52,20 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / 'overview.svg').write_text(card('GitHub Stats', overview), encoding='utf-8')
     (OUT / 'languages.svg').write_text(card('Most Used Languages', language_lines), encoding='utf-8')
+    update_image_urls()
+
+
+def update_image_urls():
+    # GitHub caches proxied images by URL, so change the URL when a card changes.
+    readme = Path('README.md')
+    content = readme.read_text(encoding='utf-8')
+    for name in ('overview', 'languages'):
+        digest = hashlib.sha256((OUT / f'{name}.svg').read_bytes()).hexdigest()[:12]
+        base = f'https://raw.githubusercontent.com/{USER}/{USER}/master/assets/stats/{name}.svg'
+        content, count = re.subn(re.escape(base) + r'(?:\?v=[a-f0-9]+)?', f'{base}?v={digest}', content)
+        if count != 1:
+            raise ValueError(f'Expected exactly one README URL for {name}, found {count}')
+    readme.write_text(content, encoding='utf-8')
 
 
 if __name__ == '__main__':
